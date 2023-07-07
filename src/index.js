@@ -1,17 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import IncrementUseStateOne from './IncrementUseStateOne';
+import IncrementUseStateTwo from './IncrementUseStateTwo';
+import UseStateWithObjects from './UseStateWithObjects';
+import UseStateWithArray from './UseStateWithArray';
+import UseEffect from './UseEffect';
+import UseReff from './UseReff';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <IncrementUseStateOne/> */}
+    {/* <IncrementUseStateTwo/> */}
+    {/* <UseStateWithObjects/> */}
+    {/* <UseStateWithArray/> */}
+    {/* <UseEffect/> */}
+    <UseReff/>
+
+
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
