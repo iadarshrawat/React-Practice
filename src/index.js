@@ -7,6 +7,7 @@ import UseStateWithObjects from './UseStateWithObjects';
 import UseStateWithArray from './UseStateWithArray';
 import UseEffect from './UseEffect';
 import UseReff from './UseReff';
+import UseMemo from './UseMemo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,8 +18,8 @@ root.render(
     {/* <UseStateWithObjects/> */}
     {/* <UseStateWithArray/> */}
     {/* <UseEffect/> */}
-    <UseReff/>
-
+    {/* <UseReff/> */}
+    <UseMemo/>
 
   </React.StrictMode>
 );
